@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>
+			ELET
+    </title>
+    <link rel="stylesheet" type="text/css" href="styles/layout.css" />
+    <link rel="stylesheet" type="text/css" href="styles/el.css" />
+		<link rel="stylesheet" type="text/css" href="styles/popup.css" />
+	</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="row">
+        <div class="col-3 text-right">
+          <label class="label">URL</label>
+        </div>
+        <div class="col-17">
+          <input class="input width-24 input-disabled" id="host" disabled="true"/>
+        </div>
+        <div class="col-4">
+          <div class="switch" id="apply">
+            <input class="switch-input" type="checkbox">
+            <span class="switch-core" />
+          </div>
+        </div>
+      </div>
+      <div class="row">
+          <div class="col-3 text-right">
+            <label class="label">RULE</label>
+          </div>
+          <div class="col-17">
+              <input class="input width-24" id="rule"/>
+          </div>
+          <div class="col-4">
+              <button class="button width-24 button-primary" id="add" >ADD</button>
+          </div>
+      </div>
+    </div>
+    <div class="body">
+      <div class="row">
+        <table class="table width-24" id="rules">
+          <thead>
+            <tr class="tr">
+              <th class="th width-18 text-center">
+                <div class='cell'>RULES</div>
+              </th>
+              <th class="th width-6 text-center">
+                  <div class='cell'>ACTION</div>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/el.js"></script>
+<script src="js/popup.js"></script>
+</html>

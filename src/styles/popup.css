@@ -1,0 +1,29 @@
+body {
+  width: 320px;
+  height: 320px;
+  margin: 0px;
+  padding: 0px;
+  font-family: Hiragino Sans GB,PingFang SC,Helvetica Neue,STHeiti,Microsoft Yahei,Tahoma,sans-serif;
+  font-size: 12px;
+  color: #606266;
+}
+
+.container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  /* background-color: #eee; */
+}
+.header {
+  height: 72px;
+}
+.body {
+  margin-top: 18px;
+  height: 210px;
+  overflow: auto;
+}
+
+
+
+
